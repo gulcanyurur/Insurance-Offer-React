@@ -1,0 +1,202 @@
+.header-container {
+  background-color: #273a7e;
+  color: #ededed;
+  font-family: Verdana, sans-serif;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.header-top-left,
+.header-top-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-contact-info,
+.header-blog,
+.header-whatsapp,
+.header-eureko {
+  margin-right: 20px;
+}
+
+.header-eureko {
+  margin-right: 150px;
+}
+.header-logo img {
+ 
+  width: 140px;
+  height: 50px;
+  margin-left: 130px;
+ 
+}
+
+
+.header-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header-menu li {
+  margin-right: 20px;
+}
+.header-menu li a {
+  text-decoration: none;
+  color: black;
+}
+.giris-yap-butonu {
+  background-color: #273a7e; 
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 350px;
+}
+
+
+.search-icon {
+margin-left: 360px;
+  cursor: pointer;
+    width: 16px;
+    height: 16px;
+    border: solid 2px #eee;
+    padding: 8px;
+    background-color: #eee;
+    border-radius: 5px;
+  
+  
+}
+
+.header-bottom {
+
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+  padding: 5px 10px;
+  background-color: #f8fafc;
+  
+}
+
+.header-contact-info {
+  display:inline-flex;
+ margin-left: 100px;
+  margin-right: 20px;
+  display: flex;
+  padding: 10px;
+  
+}
+ 
+.header-contact-info img {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+
+}
+.header-whatsapp {
+  display: inline-flex;
+  margin-right: 25px;
+}
+
+  .header-whatsapp img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  
+  
+  .header-title h1 {
+    font-size: 24px; 
+    line-height: 1.5; 
+  }
+  
+  
+
+
+.footer-container {
+  background-color:#f8fafc; 
+  
+  max-width: 1640px; 
+  display: flex; 
+  justify-content: space-around; 
+  padding: 20px 80px;
+  
+}
+
+.footer-section {
+  flex: 1; 
+  margin-left: 0px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px; 
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0; 
+}
+
+.footer-section ul li {
+  margin-bottom: 5px; 
+}
+
+.footer-section ul li a {
+  color: #333; 
+  text-decoration: none; 
+  
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+.items{
+  margin-right: 250px;
+}
+.logo-right {
+  width: 400px; 
+  height: auto; 
+ margin-left: 300px;
+ margin-top: 50px;
+}
+
+.services {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+
+
+
+
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icon {
+  margin-right: 10px; 
+}
+
+
+
+  
+  
+  
+  
+  
+  
+  
+

@@ -1,0 +1,51 @@
+.policy-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.policy-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-text {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.header-text h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.header-text h2 {
+  font-size: 18px;
+  color: #666;
+}
+
+.policy-section {
+  margin-bottom: 20px;
+}
+
+.policy-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.policy-section p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.barcode-container {
+  text-align: right;
+}

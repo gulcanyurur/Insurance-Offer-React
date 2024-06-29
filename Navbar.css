@@ -1,0 +1,141 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.navbar-items {
+  color: #333;
+  list-style-type: none;
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+  margin-right: 30px;
+  justify-content: space-between;
+}
+
+
+.navbar-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-item img {
+  width: 28px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.navbar-item.active {
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+.selected-item {
+  display: flex;
+}
+
+.selected-item img {
+  width: 260px;
+  border-radius: 50%;
+  margin: 0 40px;
+}
+
+.item-content {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.item-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.item-content p {
+  text-align: left;
+  margin-bottom: 45px;
+  padding-right: 500px;
+}
+
+.arrow.next {
+  color: black;
+  font-weight: bold;
+}
+
+.offer-button:hover {
+  background-color: #8bbe41;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.teklif-button {
+  position: absolute;
+  bottom: 5px;
+  margin-bottom: 10px;
+  left: 365px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 50px;
+  background-color: #8bbe41;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+.another-footer {
+  background-color: #f8fafc;
+  padding: 50px 0;
+}
+
+.another-footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.another-footer-section {
+  flex: 1;
+}
+
+.another-footer-section h4 {
+  color: #333;
+}
+
+.another-footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.another-footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.another-footer-section ul li a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.another-footer-section ul li a:hover {
+  color: #8bbe41;
+}
+
+.another-footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  background-color: #f8fafc;
+}
